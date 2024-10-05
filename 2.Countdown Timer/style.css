@@ -1,0 +1,122 @@
+
+
+.hidden {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+/* Reset CSS - Basic Browser Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Basic Structure Setup */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 500;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+  }
+  
+  a:hover {
+    color: #3498db; /* Blue color on hover */
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .bg-gray-200 {
+    background-color: #e2e2e2;
+  }
+  
+input{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font:bold;
+    width: 70px;
+    text-align: right;
+    font-size: medium;
+    margin-right: 10px
+    
+}
+
+
+label{
+    margin-right:5px;
+    font-size: larger;
+}
+
+
+.countdownBox{
+    background-color: #8ecf7b;
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+form{
+    padding: 40px 5px;
+    text-align: center;
+}
+
+.coolButtons{
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+}
+
+.coolButtons>button{
+    margin: 5px 6px;
+}

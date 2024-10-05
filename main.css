@@ -1,0 +1,87 @@
+/* CSS Reset - Normalizes default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Default body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* A wrapper/container to center content */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Flexbox Utility */
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-1 { margin-top: 1rem; }
+  .mb-1 { margin-bottom: 1rem; }
+  .p-1 { padding: 1rem; }
+  
+  .mt-2 { margin-top: 2rem; }
+  .mb-2 { margin-bottom: 2rem; }
+  .p-2 { padding: 2rem; }
+  
+  .bg-gray {
+    background-color: #e2e2e2;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  

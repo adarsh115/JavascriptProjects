@@ -1,0 +1,38 @@
+label{
+    padding-right: 15px;
+}
+
+input{
+    padding: 9px;
+    border: none;
+    background-color: rgb(57, 56, 56);
+    color: aliceblue;
+    font-weight: 500;
+    text-align: right;
+    border-radius: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.button_box{
+    padding: 20px 0px;
+}
+
+#summarybill{
+    border: 2px solid grey;
+    padding: 4px;
+}
+
+.hidden{
+    display: none;
+}

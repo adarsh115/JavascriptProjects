@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+label {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Optional: Add some space between the input and button */
+  button {
+    margin-left: 10px;
+  }
+
+  .hidden{
+    display: none;
+  }
+  
+  #result{
+    text-align: center;
+    
+    padding: 10px;
+    margin-top: 20px;
+    padding: 5%;
+    border-radius: 20px;
+    width:50%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(30, 100, 102);
+  }
+
+  .parent{
+    background-color: #d0e5c6;
+    display: flex;
+    justify-content: center;
+  }
+

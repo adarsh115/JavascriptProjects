@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/2.Countdown Timer/style.css"/> 
+    
+    <title>chcjh</title>
+</head>
+<body>
+    <main class="bg-gray-200 ">
+        <h1>Countdown Timer</h1>
+        <form id="timeform" action="" >
+            <label for="days">Days:</label>
+            <input type="number" name="days" id="days" min="0" value="0" required>
+
+            <label for="hours">Hours:</label>
+            <input type="number" name="hours" id="hours" min="0" max="23" value="0" required>
+
+            <label for="minutes">Minutes:</label>
+            <input type="number" name="minutes" id="minutes" id="minutes" min="0" max="59" value="0" required>
+
+            <label for="seconds">Seconds:</label>
+            <input type="number" name="seconds" id="seconds" id="seconds" min="0" max="59" value="0" required>
+            <button type="button" id="formButton">Submit</button>
+        </form>
+
+        <div class="countdownBox">
+            <span id="countdown">00:00:00:00</span>
+            <!-- <span id="millisec">milli</span> -->
+            <div class="coolButtons">
+                <button id="start" class="hidden">start</button>
+                <button id="reset" class="hidden">reset</button>
+            </div>
+
+        </div>
+        
+    </main>
+    
+    <script src="/2.Countdown Timer/script.js"></script>
+</body>
+</html>
