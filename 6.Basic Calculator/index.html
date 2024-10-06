@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../main.css">
+    <title>Basic Calculator</title>
+</head>
+
+<body>
+
+    <h1>Calculator</h1>
+    <div class="container">
+
+
+        <input type="text" name="calculationExpression" id="calculationExpression" value="">
+        <div id="buttons">
+            <table>
+                <tr>
+                    <td><button id="btn1" onclick="updateInput('.')">.</button></td>
+                    <td><button id="btn2" onclick="updateInput('()')">()</button></td>
+                    <td><button id="btn3" onclick="updateInput('%')">%</button></td>
+                    <td><button id="btn4" onclick="updateInput('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn5" onclick="updateInput('7')">7</button></td>
+                    <td><button id="btn6" onclick="updateInput('8')">8</button></td>
+                    <td><button id="btn7" onclick="updateInput('9')">9</button></td>
+                    <td><button id="btn8" onclick="updateInput('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn9" onclick="updateInput('4')">4</button></td>
+                    <td><button id="btn10" onclick="updateInput('5')">5</button></td>
+                    <td><button id="btn11" onclick="updateInput('6')">6</button></td>
+                    <td><button id="btn12" onclick="updateInput('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="btn13" onclick="updateInput('1')">1</button></td>
+                    <td><button id="btn14" onclick="updateInput('2')">2</button></td>
+                    <td><button id="btn15" onclick="updateInput('3')">3</button></td>
+                    <td><button id="btn16" onclick="updateInput('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="btn17" onclick="updateInput('DEL')">DEL</button></td> <!-- Spans 2 columns -->
+                    <td><button id="btn18" onclick="updateInput('0')">0</button></td>
+                    <td><button id="btn19" onclick="updateInput('AC')">AC</button></td> <!-- Clear button size adjusted -->
+                </tr>
+            </table>
+        </div>
+        <button id="calculate" onclick="evaluateResult()">Calculate</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
